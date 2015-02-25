@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form method="get" name="registration">
+        <table style="text-align :right" border="2">
+            <tr>
+                <td><strong>Last Name</strong></td>
+                <td align="left"><input required name="last name" type="text" placeholder="exp. Berkwick"/> </td>
+            </tr>
+            <tr>
+                <td><strong>First Name</strong></td>
+                <td align="left"><input required name="first name" type="text" placeholder="exp. Jonh" /> </td>
+            </tr>
+            <tr>
+                <td><strong>Adress</strong></td>
+                <td align="left"><textarea required style="resize:none" name="adress" placeholder="exp. 34 Vranya"></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>City</strong></td>
+                <td align="left">
+                    <input required size="7" name="city" type="text" placeholder="exp. Sofia" />
+                    <strong>State</strong><input size="2" name="state" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Country</strong></td>
+                <td align="left"><select name="country">
+                    <option>Bulgaria</option>
+                    <option>England</option>
+                    <option>Brazil</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><strong>Phone(Country code,<br />area code,number)</strong></td>
+                <td align="left">
+                    (+<input  name="phone" size="1" type="tel" max="3" /> ) 
+                    <input name="phone" size="1" type="tel" max="4" />
+                    <input name="phone" size="4" type="tel" max="9" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>E-mail</strong></td>
+                <td align="left">
+                    <input required placeholder="exp.test@samlpe.com" type="email" name="email" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Birth date</strong></td>
+                <td align="left" style="font-size:xx-small">
+                    Day<input value="31" type="number" max="31" min="1" name="day" maxlength="2" />
+                    Month<input value="12" type="number" max="12" min="1"  name="month" maxlength="2" />
+                    Year(4 digits)<input value="1980" type="number" min="1930" max="2010" name="Year" maxlength="4" />
+                </td>
+
+            </tr>
+            <tr>
+                <td><strong>Gender</strong></td>
+                <td align="left">
+                    <select>
+                        <option selected="selected">Male</option>
+                        <option>Female</option>
+                        <option>Other ;-) </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Starting season</strong></td>
+                <td align="left">
+                    <input name="1" type="radio" value="Sping 2014" /> Spring 2014
+                    <input name="1" type="radio" value="Summer 2015" /> Summer 2015
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Comments/Questions</strong></td>
+                <td align="left">
+                    <textarea placeholder="!......................."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="background-color:aquamarine">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clear form" />
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
